@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Xindi's Brilliant Website</title>
+        <style>
+            body {
+                background: rgb(210, 230, 250);
+                color: rgb(118, 98, 248);
+                padding: 10px;
+                font-family: monaco;
+            }
+            #all-contents {
+              max-width: 1000px;
+                margin: auto;
+            }
+         
+            /* navigation menu */
+            nav {
+                background: rgb(30, 30, 255);
+               margin: 0 auto;
+               margin-bottom: 10px;
+               border-radius: 2px;
+                display: flex;
+                padding: 10px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: white;
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+                border: 5px solid rgb(120, 90, 255);
+                border-radius: 5px;
+                background-color: rgb(118, 98, 248);
+            }
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+         
+            /* main container area beneath menu */
+            main {
+                background: rgb(150, 255, 210);
+                display: flex;
+                border-radius: 2px;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 200px;
+                border-radius: 8px;
+                border: 5px solid rgb(125, 255, 195);
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 4px silver ridge;
+                padding: 8px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+         </style>
+    </head>
+    <body>
+        <!-- All content goes here -->
+        <div id="all-contents">
+            <nav>
+                <h1>Xindi's Brilliant Website</h1>
+                <ul id="nav-ul">
+                    <li class="nav-li">
+                        <a herf="index.html"> Home </a>
+                    </li>
+                    <li class="nav-li">
+                        <a herf="portfolio.html"> Portfolio </a>
+                    </li>
+                </ul>
+            </nav>
+            <main>
+                <!-- Sidebar sectionv-->
+                <div class="sidebar">
+                    <img class="sidebar-img" src="https://i.pinimg.com/564x/e0/17/24/e017247aa15b68ceb853869ae4183df8.jpg">
+                </div>
+                
+                <!-- Content section -->
+                <div class="content" >
+                    <h2>Xindi Liu</h2>
+                    <p>Student at Benjamin Franklin High School</p>
+                    <!-- Intrests Section -->
+                    <div id="intrests">
+                        <h3> Intrests </h3>
+                        <ul>
+                            <li>Drawing</li>
+                            <li>Reading</li>
+                            <li>Thinking up weird ideas</li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
